@@ -8,7 +8,7 @@ const interval = setInterval(() => {
 const closeYTAds = () => {
   const buttonClasses = ["ytp-ad-skip-button", "ytp-ad-overlay-close-button"];
   const buttonElements = buttonClasses.map(
-    (ele) => document.querySelector(`.${buttonClasses[0]}`) || null
+    (ele) => document.querySelector(`.${ele}`) || null
   );
 
   buttonElements.forEach((ele) => {
