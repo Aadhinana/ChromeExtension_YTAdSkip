@@ -1,7 +1,7 @@
-console.log("chrome extension running!")
+// console.log("chrome extension running!")
 
 const interval = setInterval(() => {
-  console.log("Interval setup");
+  // console.log("Interval setup");
   closeYTAds();
 }, 1000);
 
